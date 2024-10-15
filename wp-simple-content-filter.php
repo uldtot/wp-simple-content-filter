@@ -54,7 +54,7 @@ class WPSimpleContentFilter
         <div class="wp-simple-content-filter">
             <?php if ($parsed_atts['showsearch'] == 1): ?>
                 <!-- Search field -->
-                <input type="text" placeholder="Search..." class="wp-simple-content-filter-search" onkeyup="filterContent()" />
+                <input type="text" placeholder="Søg..." class="wp-simple-content-filter-search" onkeyup="filterContent()" />
             <?php endif; ?>
 
             <?php
